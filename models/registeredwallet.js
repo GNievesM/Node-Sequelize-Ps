@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     walletAddress: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'RegisteredWallet',
+    modelName: 'registeredWallets',
   });
   return RegisteredWallet;
 };
